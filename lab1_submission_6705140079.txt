@@ -1,0 +1,19 @@
+=BEGIN LAB1 SUBMISSION=
+student_id: 6705140079
+timestamp: 2026-09-01T16:03:06Z
+hostname: ubuntu
+---[user: getent passwd]---
+user0079:x:1001:1001::/home/user0079:/bin/sh
+---[group: getent group]---
+netadmins:x:1002:user0079
+---[user-in-group: id]---
+uid=1001(user0079) gid=1001(user0079) groups=1001(user0079),1002(netadmins)
+---[file stat: home file mode/owner]---
+/home/user0079/report_0079.txt mode=640 owner=user0079 group=netadmins
+---[sshd effective config]---
+port 2279
+permitrootlogin no
+passwordauthentication no
+---[integrity]---
+sshd_sha256: 7d268183d6d3b2786c07713ffd659595a21f9aefb9557d9f87fa2d39114460eb
+=END LAB1 SUBMISSION=
