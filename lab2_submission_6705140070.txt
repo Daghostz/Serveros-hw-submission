@@ -46,7 +46,6 @@ default-lease-time YOUR_LEASE_SECONDS;
 subnet YOUR_SUBNET 
         ^
 Configuration file errors encountered -- exiting
-
 If you think you have received this message due to a bug rather
 than a configuration issue please read the section on submitting
 bugs on either our web page at www.isc.org or in the README file
